@@ -59,6 +59,7 @@ public class Main {
                         // System.out.println("El precio de venta es " + precioVenta);
                         Venta venta = new Venta(nombre, tamanio, tipo, kg);
                         //venta.mostrarValores();
+                    
                         // Se guarda en un array de ventas la venta creada
                         ventas[contadorVentas] = venta;
                         contadorVentas++;
